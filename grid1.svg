@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="205" height="205" viewBox="0 0 205 205" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<rect x="0" y="0" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="51" y="0" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="102" y="0" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="153" y="0" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="204" y="0" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="0" y="51" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="51" y="51" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="102" y="51" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="153" y="51" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="204" y="51" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="0" y="102" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="51" y="102" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="102" y="102" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="153" y="102" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="204" y="102" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="0" y="153" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="51" y="153" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="102" y="153" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="153" y="153" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="204" y="153" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="0" y="204" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="51" y="204" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="102" y="204" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="153" y="204" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+<rect x="204" y="204" width="50" height="50" fill="none" stroke="black" stroke-width="1" />
+</svg>

@@ -1,0 +1,38 @@
+package main
+
+import (
+	"github.com/ajstarks/svgo"
+	"os"
+)
+
+func main() {
+	rows, columns := 5, 5
+	cellWidth, cellHeight := 50, 50
+	marginX, marginY := 3, 3
+	//strokeWidth := 1
+	outputFileName := "grid.svg"
+
+	width, height := columns*cellWidth, rows*cellHeight
+
+	outputFile, err := os.Create(outputFileName)
+	if err != nil {
+		panic(err)
+	}
+	defer outputFile.Close()
+
+	canvas := svg.New(outputFile)
+	canvas.Start(width, height)
+	canvas.Rect(0, 0, width, height, "fill:white")
+
+	canvas.Rect(marginX, marginY, cellWidth*4-marginX*2, cellHeight-marginY*2, "fill:red;stroke:black;stroke-width:1")
+
+	for row := 0; row <= rows; row++ {
+		for col := 0; col <= columns; col++ {
+			x := col * cellWidth
+			y := row * cellHeight
+			canvas.Rect(x, y, cellWidth, cellHeight, "fill:none;stroke:black;stroke-width:1")
+		}
+	}
+
+	canvas.End()
+}
